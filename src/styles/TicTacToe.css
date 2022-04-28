@@ -1,0 +1,215 @@
+* {
+    letter-spacing: 1px;
+    color: white;
+    background: rgb(1, 66, 106);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.msg-turn  {
+    font-size: 25px;
+    background-image: url(../../public/brush.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 20%;
+    padding: 8px 0;
+    margin: 10px 0px 20px 0px;
+}
+
+.msg-winner {
+    font-size: 25px;
+    background: url(https://www.onlygfx.com/wp-content/uploads/2017/07/red-paint-brush-stroke-48.png);
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding: 8px 0;
+
+}
+
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+table td {
+    text-align: center;
+    width: 200px;
+    height: 120px;
+    font-size: 80px;
+    background: linear-gradient(rgba(1, 66, 106, 0.879), rgb(1, 66, 106)), url(../../public/brush.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 2px 2px #ceaa5deb;
+    border-radius: 25px;
+    padding: 8px 0;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #CEAB5D;
+    animation-duration: 2.6s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+button:hover {
+    background: #CEAB5D;
+    cursor: pointer;
+    border: none;
+    animation: none;
+    color: white;
+}
+
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+tr {
+    animation: bounce-in 2s ease 0s 1 normal;
+
+}
+
+@keyframes bounce-in {
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.0);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1 {
+    color: #CEAB5D;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 20px 0px 10px 0px;
+}
+
+.img-psg {
+    position: absolute;
+    left: 273px;
+    top: -10px;
+    width: 90px;
+    height: 80px;
+    border: 2px solid #CEAB5D;
+    border-radius: 90%;
+}
+
+@media all and (max-width:430px) {
+    .msg-turn,
+    .msg-winner {
+        font-size: 20px;
+    }
+    .img-psg {
+        border: 1px solid #CEAB5D;
+        border-radius: 90%;
+        position: absolute;
+        left: 137px;
+        top: 102px;
+        width: 140px;
+        height: 130px;
+    }
+    table td {
+        text-align: center;
+        width: 100px;
+        height: 70px;
+        font-size: 46px;
+        background: linear-gradient(rgba(1, 66, 106, 0.879), rgb(1, 66, 106)), url(../../public/brush.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: 0px 0px 1px 3px #CEAB5D;
+        border-radius: 25px;
+        padding: 8px 0;
+    }
+    h1 {
+        margin-bottom: 30px;
+        position: relative;
+        text-align: center;
+        font-size: 95px;
+        letter-spacing: 1px;
+        font-weight: 900;
+
+    }
+
+}
+@media all and (max-width:410px) {
+    .img-psg {
+        border: 1px solid #CEAB5D;
+        border-radius: 90%;
+        position: absolute;
+        left: 127px;
+        top: 102px;
+        width: 140px;
+        height: 130px;
+    }
+}
+@media all and (max-width:400px) {
+    .img-psg {
+        border: 1px solid #CEAB5D;
+        border-radius: 90%;
+        position: absolute;
+        left: 123px;
+        top: 102px;
+        width: 140px;
+        height: 130px;
+    }
+}
+@media all and (max-width:390px) {
+    .img-psg {
+        border: 1px solid #CEAB5D;
+        border-radius: 90%;
+        position: absolute;
+        left: 118px;
+        top: 102px;
+        width: 140px;
+        height: 130px;
+    }
+}
