@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tictactoe-psg/static/css/main.376a1003.css",
+    "main.js": "/tictactoe-psg/static/js/main.f3031b40.js",
+    "static/media/brush.png": "/tictactoe-psg/static/media/brush.d66b23c9fc260d008a80.png",
+    "index.html": "/tictactoe-psg/index.html",
+    "main.376a1003.css.map": "/tictactoe-psg/static/css/main.376a1003.css.map",
+    "main.f3031b40.js.map": "/tictactoe-psg/static/js/main.f3031b40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.376a1003.css",
+    "static/js/main.f3031b40.js"
+  ]
+}
